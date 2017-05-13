@@ -1,0 +1,22 @@
+#img_loader {
+    background:#fff;
+    height: 100%;
+    opacity: 0.1;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+	opacity:0.7;
+}
+
+
+
+#img_loader > img {
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+}
+
+#load_more {border:none;}
+#Got_to_top{border:none;}

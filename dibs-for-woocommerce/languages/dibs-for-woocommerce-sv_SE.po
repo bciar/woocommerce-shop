@@ -1,0 +1,530 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DIBS for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-22 10:32+0100\n"
+"PO-Revision-Date: 2017-02-02 22:25+0100\n"
+"Last-Translator: Niklas Högefjord <info@krokedil.se>\n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:103 class-dibs-invoice.php:187
+msgid "Enable/Disable"
+msgstr "Aktivera/Avaktivera"
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:105
+msgid "Enable DIBS"
+msgstr "Aktivera DIBS"
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:109 class-dibs-invoice.php:193
+msgid "Title"
+msgstr "Titel"
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:111 class-dibs-invoice.php:195
+msgid "This controls the title which the user sees during checkout."
+msgstr "Det här kontrollerar vilken titel kunden ser i kassan."
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:112 class-dibs-cc.php:216
+msgid "DIBS"
+msgstr "DIBS"
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:115 class-dibs-invoice.php:199
+msgid "Description"
+msgstr "Beskrivning"
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:117 class-dibs-invoice.php:201
+msgid "This controls the description which the user sees during checkout."
+msgstr "Det här kontrollerar den beskrivning kunden ser i kassan."
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:118
+msgid "Pay via DIBS using credit card or bank transfer."
+msgstr "Betala via DIBS med kort eller banköverföring"
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:121
+msgid "DIBS Merchant ID"
+msgstr "DIBS Merchant ID"
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:123
+msgid ""
+"Please enter your DIBS Merchant ID; this is needed in order to take payment."
+msgstr "Fyll i ditt DIBS Merchant ID."
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:127
+msgid "MD5 k1"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:129
+msgid ""
+"Please enter your DIBS MD5 k1; this is only needed when using Flexwin as the "
+"payment method."
+msgstr ""
+"Fyll i ditt DIBS MD5 k1; detta behövs endast när du använder Flexwin som "
+"betalmetod."
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:133
+msgid "MD5 k2"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:135
+msgid ""
+"Please enter your DIBS MD5 k2; this is only needed when using Flexwin as the "
+"payment method."
+msgstr ""
+"Fyll i ditt DIBS MD5 k2; detta behövs endast när du använder Flexwin som "
+"betalmetod."
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:139
+msgid "HMAC Key (k)"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:141
+msgid ""
+"Please enter your DIBS HMAC Key (k); this is only needed when using Payment "
+"Window as the payment method."
+msgstr ""
+"Fyll i ditt DIBS HMAC Key (k); detta behövs endast när du använder Payment "
+"Window som betalmetod."
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:145
+msgid "Payment Method"
+msgstr "Betalmetod"
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:147
+msgid "Flexwin"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:147
+msgid "Payment Window"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:148
+msgid "Choose payment method integration."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:152
+msgid "Paytype - All Cards"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:154
+msgid "Include the paytype ALL_CARDS sent to DIBS."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:155 class-dibs-cc.php:162 class-dibs-cc.php:169
+msgid ""
+"This is used to control the payment methods available in the payment window "
+"(when using Payment Window as the payment method)."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:159
+msgid "Paytype - All Netbanks"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:161
+msgid "Include the paytype ALL_NETBANKS sent to DIBS."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:166
+msgid "Paytype - PayPal"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:168
+msgid "Include the paytype PAYPAL sent to DIBS."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:173 class-dibs-invoice.php:241
+msgid "Language"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:176 class-dibs-invoice.php:244
+msgid ""
+"Set the language in which the page will be opened when the customer is "
+"redirected to DIBS."
+msgstr ""
+
+#: class-dibs-cc.php:180
+msgid "DIBS transaction capture"
+msgstr ""
+
+#: class-dibs-cc.php:183
+msgid "On Purchase"
+msgstr ""
+
+#: class-dibs-cc.php:184
+msgid "On order completion"
+msgstr ""
+
+#: class-dibs-cc.php:185
+msgid "No"
+msgstr ""
+
+#: class-dibs-cc.php:187
+msgid ""
+"If On Purchase is selected the order amount is immediately transferred from "
+"the customer’s account to the shop’s account. Contact DIBS when using this "
+"option."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:191 class-dibs-invoice.php:269
+msgid "Test Mode"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:193 class-dibs-invoice.php:271
+msgid ""
+"Enable DIBS Test Mode. Read more about the <a href=\"http://tech.dibs."
+"dk/10_step_guide/your_own_test/\" target=\"_blank\">DIBS test process here</"
+"a>."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:197 class-dibs-invoice.php:275
+msgid "Debug"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:199 class-dibs-invoice.php:277
+msgid "Enable logging (<code>woocommerce/logs/dibs.txt</code>)"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:218 class-dibs-invoice.php:295
+#, php-format
+msgid "Documentation <a href=\"%s\" target=\"_blank\">can be found here</a>."
+msgstr ""
+
+#: class-dibs-cc.php:220
+msgid ""
+"You must set payment method to \"Payment Window\" to allow recurring "
+"payments."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:233 class-dibs-invoice.php:306
+msgid "DIBS does not support your store currency."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:439 class-dibs-invoice.php:440
+msgid "Shipping cost"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:451 class-dibs-invoice.php:452
+msgid "Discount"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:553 class-dibs-invoice.php:544
+msgid ""
+"Thank you for your order. We are now redirecting you to DIBS to make payment."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:578 class-dibs-invoice.php:570
+msgid "Pay via dibs"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:578 class-dibs-invoice.php:570
+msgid "Cancel order &amp; restore cart"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:604 class-dibs-invoice.php:599
+msgid ""
+"Thank you for your order, please click the button below to pay with DIBS."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:664
+#, php-format
+msgid "MD5 check failed. DIBS transaction ID: %s"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:674
+msgid "DIBS payment completed. DIBS transaction number: "
+msgstr ""
+
+#: class-dibs-cc.php:678 class-dibs-cc.php:779 gateway-dibs.php:271
+msgid "DIBS transaction captured."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:687 class-dibs-cc.php:796
+#, php-format
+msgid ""
+"DIBS Payment Pending. Check with DIBS for further information. DIBS "
+"transaction number: %s"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:698
+#, php-format
+msgid "DIBS payment %s not approved. Status code %s."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:761
+#, php-format
+msgid "HMAC check failed for Dibs callback with order_id: %s."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:775
+#, php-format
+msgid "DIBS payment completed. DIBS transaction number: %s."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:787
+#, php-format
+msgid "DIBS subscription ticket number: %s."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:805
+#, php-format
+msgid "Payment %s via IPN."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:849 class-dibs-cc.php:880 class-dibs-invoice.php:635
+msgid "Order cancelled by customer."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:852 class-dibs-cc.php:883 class-dibs-invoice.php:638
+msgid "Your order was cancelled."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:856 class-dibs-cc.php:887 class-dibs-invoice.php:642
+msgid ""
+"Your order is no longer pending and could not be cancelled. Please contact "
+"us if you need assistance."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:860 class-dibs-cc.php:891 class-dibs-invoice.php:646
+msgid "Invalid order."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:977
+#, php-format
+msgid "DIBS subscription payment completed. Transaction Id: %s."
+msgstr ""
+
+#: class-dibs-cc.php:983
+#, php-format
+msgid "DIBS subscription payment failed. WP Remote post problem: %s."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-cc.php:989
+#, php-format
+msgid "DIBS subscription payment failed. Decline reason: %s."
+msgstr ""
+
+#: class-dibs-cc.php:1101
+#, php-format
+msgid "%s refunded successfully via DIBS."
+msgstr ""
+
+#: class-dibs-cc.php:1106
+#, php-format
+msgid " Reason: %s."
+msgstr ""
+
+#: class-dibs-cc.php:1119
+#, php-format
+msgid "DIBS refund failed. WP Remote post problem: %s."
+msgstr ""
+
+#: class-dibs-cc.php:1129
+msgid "DIBS refund failed."
+msgstr ""
+
+#: class-dibs-cc.php:1131
+#, php-format
+msgid "DIBS refund failed. Decline reason: %s."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:15 class-dibs-invoice.php:196
+#: class-dibs-invoice.php:294
+msgid "DIBS Invoice"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:189
+msgid "Enable DIBS Invoice"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:202
+msgid "Pay via DIBS Invoice."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:205
+msgid "DIBS Merchant ID - Sweden"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:207
+msgid "Please enter your DIBS Merchant ID for Sweden."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:211
+msgid "HMAC Key (k) - Sweden"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:213
+msgid "Please enter your DIBS HMAC Key (k) for Sweden."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:217
+msgid "DIBS Merchant ID - Norway"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:219
+msgid "Please enter your DIBS Merchant ID for Norway."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:223
+msgid "HMAC Key (k) - Norway"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:225
+msgid "Please enter your DIBS HMAC Key (k) for Norway."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:229
+msgid "DIBS Merchant ID - Denmark"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:231
+msgid "Please enter your DIBS Merchant ID for Denmark."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:235
+msgid "HMAC Key (k) - Denmark"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:237
+msgid "Please enter your DIBS HMAC Key (k) for Denmark."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:248
+msgid "Invoice Fee"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:250
+msgid ""
+"Create a hidden (simple) product that acts as the invoice fee. Enter the ID "
+"number in this textfield. Leave blank to disable. "
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:254
+msgid "Totals calculation"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:256
+msgid "Let the payment gateway calculate totals"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: class-dibs-invoice.php:257
+msgid ""
+"Order total sent to DIBS is calculated by the payment gateway, not by "
+"WooCommerce. This can be useful when having prices/tax amounts that use 3 or "
+"4 decimals since DIBS process prices with 2 decimals. Both Order total and "
+"each order row is passed to DIBS. If they do not add up DIBS will cancel the "
+"payment. "
+msgstr ""
+
+#: dibs-subscriptions.php:56
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: gateway-dibs.php:274
+#, php-format
+msgid "DIBS transaction capture failed. WP Remote post problem: %s."
+msgstr ""
+
+#: gateway-dibs.php:277
+#, php-format
+msgid "DIBS transaction capture failed. Decline reason: %s."
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: includes/class-wc-dibs-manual-modification.php:22
+msgid "DIBS Order transaction details"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: includes/class-wc-dibs-manual-modification.php:56
+msgid "DIBS Transaction number"
+msgstr ""
+
+# @ woocommerce-gateway-dibs
+#: includes/class-wc-dibs-manual-modification.php:57
+msgid "DIBS Ticket number (for subscription payments)"
+msgstr ""

@@ -1,0 +1,117 @@
+.custom-post li
+{
+	display:inline;
+	text-decoration:none;
+
+	
+}
+ .design_area
+{
+	display:inline-block;
+}
+.custom-post a
+{
+
+	color:black;
+	font-weight:bold;
+	padding:15px;
+}
+.img-badge-img div
+{
+display:inline-block;
+height:103px;
+margin:0px;
+line-height:100px;
+min-width:20%;
+	
+}
+.img-badge-img div img
+{
+	top:50%;
+	margin-left:10%;
+}
+
+.badge-tab-active
+{
+border-left:solid 1px;
+border-top:solid 1px;
+border-right:solid 1px;
+background-color:white;
+}
+
+.badge-tab-deactive
+{
+background-color:#F0F0F0 ;
+}
+.images
+{
+	position:relative;
+}
+.custom-post li a
+
+{
+	text-decoration:none;
+	font-size:14px;
+}
+
+	
+
+
+.tabactive
+{
+	color:black;
+	font-weight:bold;
+	padding:15px;
+	border-bottom: 1px solid #F1F1F1;
+background: white;
+color: #000;
+border-width: 1px 1px medium;
+border-style: solid solid none;
+border-color: #CCC #CCC -moz-use-text-color;
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+}
+.tabdeactive
+{
+	color:black;
+	font-weight:bold;
+	padding:15px;
+
+	border-width: 1px 1px medium;
+border-style: solid solid none;
+border-color: #CCC #CCC -moz-use-text-color;
+}
+#img-content img
+{
+	cursor:pointer;
+}
+#img-content fieldset
+{
+
+	border:solid 1px; width:500px; font-size:14px;
+}
+#txt-content fieldset
+{
+
+	border:solid 1px; width:500px; font-size:14px;
+}
+#bg_pos_area
+{
+	border:solid 1px; width:500px; font-size:14px;
+}
+legend
+{
+margin-left:20px; font-weight:bold;
+}
+
+#footer-thankyou
+{
+	display:none;
+}
+
+
+
+

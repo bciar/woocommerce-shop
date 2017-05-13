@@ -1,0 +1,497 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce pakkelabels Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-13 08:45+0000\n"
+"PO-Revision-Date: 2017-03-13 08:46+0000\n"
+"Last-Translator: jesperer test <udvikler@mediastyle.dk>\n"
+"Language-Team: Danish\n"
+"Language: da-DK\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: da_DK\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Description of the plugin
+msgid "GLS, PostDanmark, DAO og Bring Shipping for WooCommerce"
+msgstr "GLS, PostDanmark, DAO og Bring forsendelse for WooCommerce"
+
+#: pakkelabels.php:114
+#, php-format
+msgid "Please go to the WooCommerce -> %s, and set a valid frontend key"
+msgstr "Besøg venligst WooCommerce -> %s, og indsæt en valid frontend nøgle"
+
+#: pakkelabels.php:130
+#, php-format
+msgid "Please go to the WooCommerce -> %s, and set a valid Google Map API key"
+msgstr ""
+"Besøg venligst WooCommerce -> %s, og indsæt en valid Google Map API nøgle"
+
+#: pakkelabels.php:171
+msgid "Please select a pickup point before placing your order."
+msgstr "Du skal vælge et udleveringssted, før du kan gå videre"
+
+#: pakkelabels.php:206
+msgid "Currently choosen pickup point:"
+msgstr "Valgt udleveringssted"
+
+#: pakkelabels.php:207 includes/legacy_pakkelabels_shipping_main.php:193
+#: includes/pakkelabels_shipping_main.php:186
+msgid "The zipcode must be 4 numbers long, and numeric - please try again"
+msgstr "Postnummeret skal være på 4 cifre, og numerisk - prøv venligst igen"
+
+#: pakkelabels.php:208
+msgid "* Couldnt mark this pickup point on the map"
+msgstr "* Kunne ikke indsætte afhentnings stedet på mappet"
+
+#: pakkelabels.php:385
+msgid "packetshop window"
+msgstr "Pakkeshop Vindue"
+
+#: pakkelabels.php:389
+msgid "Choose pickup point"
+msgstr "Vælg udleveringssted"
+
+#: pakkelabels.php:393
+msgid "Show Map"
+msgstr "Vis Kort"
+
+#: pakkelabels.php:396
+msgid "Hide Map"
+msgstr "Skjul Kort"
+
+#: pakkelabels.php:406
+msgid "Save"
+msgstr "Gem"
+
+#: pakkelabels.php:407
+msgid "Powered by"
+msgstr "Powered by"
+
+#: settings/settings-plugin.php:29
+msgid "Shipping Module key:"
+msgstr "Fragtmodul nøgle:"
+
+#: settings/settings-plugin.php:37
+msgid "Google Map API key:"
+msgstr "Google Map API nøgle:"
+
+#: settings/settings-plugin.php:66
+msgid ""
+"Generate a shipping module key from: <a target=\"_blank\" href=\"https://app."
+"pakkelabels.dk/main/app/#/setting/api\">Pakkelabels.dk</a> "
+msgstr ""
+"Generer en fragtmodul nøgle på: <a target=\"_blank\" href=\"https://app."
+"pakkelabels.dk/main/app/#/setting/api\">Pakkelabels.dk</a> "
+
+#: settings/settings-plugin.php:67
+msgid ""
+"</br>Generate a personal Google Map API key from:  <a target=\"_blank\" "
+"href=\"https://developers.google.com/maps/documentation/javascript/get-api-"
+"key\">Google</a>"
+msgstr ""
+"</br>Generer en personlig Google Map API nøgle på:  <a target=\"_blank\" "
+"href=\"https://developers.google.com/maps/documentation/javascript/get-api-"
+"key\">Google</a>"
+
+#: settings/settings-plugin.php:77
+msgid "Pakkelabels.dk shipping module"
+msgstr "Pakkelabels.dk Fragtmodul"
+
+#: includes/pakkelabels_shipping_bring_business.php:18
+msgid "Bring Business"
+msgstr "Bring - Omdeling til erhverv"
+
+#: includes/pakkelabels_shipping_bring_business.php:19
+#: includes/legacy_pakkelabels_shipping_bring_business.php:16
+msgid "Adds the option to ship with the Bring business to the checkout"
+msgstr ""
+"Tilføjer muligheden for at tilføje Bring erhverv afsendelse ved checkout"
+
+#: includes/pakkelabels_shipping_bring_business.php:53
+#: includes/pakkelabels_shipping_bring_business.php:55
+#: includes/pakkelabels_shipping_gls_business.php:55
+#: includes/pakkelabels_shipping_gls_business.php:57
+#: includes/pakkelabels_shipping_postnord_business.php:55
+#: includes/pakkelabels_shipping_postnord_business.php:57
+#: includes/legacy_pakkelabels_shipping_bring_business.php:46
+#: includes/legacy_pakkelabels_shipping_bring_business.php:48
+#: includes/legacy_pakkelabels_shipping_gls_business.php:52
+#: includes/legacy_pakkelabels_shipping_gls_business.php:54
+#: includes/legacy_pakkelabels_shipping_postnord_business.php:52
+#: includes/legacy_pakkelabels_shipping_postnord_business.php:54
+msgid "Please fill out the Shipping company"
+msgstr "Udfyld venligst firmanavnet pakken afsendes til"
+
+#: includes/pakkelabels_shipping_bring_business.php:60
+#: includes/pakkelabels_shipping_bring_business.php:62
+#: includes/pakkelabels_shipping_gls_business.php:62
+#: includes/pakkelabels_shipping_gls_business.php:64
+#: includes/pakkelabels_shipping_postnord_business.php:62
+#: includes/pakkelabels_shipping_postnord_business.php:64
+#: includes/legacy_pakkelabels_shipping_bring_business.php:53
+#: includes/legacy_pakkelabels_shipping_bring_business.php:55
+#: includes/legacy_pakkelabels_shipping_gls_business.php:59
+#: includes/legacy_pakkelabels_shipping_gls_business.php:61
+#: includes/legacy_pakkelabels_shipping_postnord_business.php:59
+#: includes/legacy_pakkelabels_shipping_postnord_business.php:61
+msgid "Please fill out the billing company"
+msgstr "Udfyld venligst fakturerings firmaet"
+
+#: includes/pakkelabels_shipping_bring_business.php:79
+#: includes/pakkelabels_shipping_gls_business.php:81
+#: includes/pakkelabels_shipping_postnord_business.php:81
+#: includes/legacy_pakkelabels_shipping_bring_business.php:71
+#: includes/legacy_pakkelabels_shipping_gls_business.php:77
+#: includes/legacy_pakkelabels_shipping_postnord_business.php:77
+msgid "The company name is required."
+msgstr "Firma navnet er påkrævet"
+
+#: includes/pakkelabels_shipping_gls_business.php:20
+msgid "GLS Business"
+msgstr ""
+"GLS - Omdeling til erhverv\n"
+
+#: includes/pakkelabels_shipping_gls_business.php:21
+#: includes/legacy_pakkelabels_shipping_gls_business.php:22
+msgid "Adds the option to ship with the GLS business to the checkout"
+msgstr "Tilføjer muligheden for at tilføje GLS erhverv afsendelse ved checkout"
+
+#: includes/pakkelabels_shipping_bring_private.php:20
+#: includes/legacy_pakkelabels_shipping_bring_private.php:21
+msgid "Bring - Evening delivery to private"
+msgstr "Bring - Aftenlevering til privat"
+
+#: includes/pakkelabels_shipping_bring_private.php:21
+#: includes/legacy_pakkelabels_shipping_bring_private.php:22
+msgid ""
+"Adds the option to ship with Bring - Evening delivery to private to the "
+"checkout"
+msgstr ""
+"Tilføjer muligheden for at tilføje Bring - Aftenlevering til privat ved "
+"checkout"
+
+#: includes/pakkelabels_shipping_pdk.php:20
+#: includes/legacy_pakkelabels_shipping_pdk.php:24
+msgid "PostNord Pickup Point"
+msgstr "PostNord - Valgfrit udleveringssted"
+
+#: includes/pakkelabels_shipping_pdk.php:21
+#: includes/legacy_pakkelabels_shipping_pdk.php:25
+msgid "Adds the option to ship with the PostNord pickup point to the checkout"
+msgstr ""
+"Tilføjer muligheden for at sende til et PostNord udleveringssted ved checkout"
+
+#: includes/legacy_pakkelabels_shipping_dao.php:24
+#: includes/pakkelabels_shipping_dao.php:20
+msgid "DAO Pickup Point"
+msgstr "DAO Pakkeshop"
+
+#: includes/legacy_pakkelabels_shipping_dao.php:25
+#: includes/pakkelabels_shipping_dao.php:21
+msgid "Adds the option to ship with the DAO pickup point to the checkout"
+msgstr ""
+"Tilføjer muligheden for at sende til et DAO udleveringssted ved checkout"
+
+#: includes/legacy_pakkelabels_shipping_main.php:72
+#: includes/pakkelabels_shipping_main.php:67
+msgid "Pakkeshop"
+msgstr "Pakkeshop"
+
+#: includes/legacy_pakkelabels_shipping_main.php:180
+#: includes/pakkelabels_shipping_main.php:173
+msgid "Couldnt find any pickup point close to the choosen zipcode"
+msgstr "Kunne ikke finde nogen afhentningsteder for det valgte postnummer"
+
+#: includes/legacy_pakkelabels_shipping_main.php:186
+#: includes/pakkelabels_shipping_main.php:179
+msgid "Please enter a valid shipping module key"
+msgstr "Tilføj venligst en gyldig fragtmodul nøgle"
+
+#: includes/legacy_pakkelabels_shipping_main.php:242
+#: includes/pakkelabels_shipping_main.php:235
+msgid "Zipcode"
+msgstr "Postnummer"
+
+#: includes/legacy_pakkelabels_shipping_main.php:248
+#: includes/pakkelabels_shipping_main.php:241
+msgid "Find nearest pickup point"
+msgstr "Find nærmeste udleveringssted"
+
+#: includes/legacy_pakkelabels_shipping_main.php:256
+#: includes/pakkelabels_shipping_main.php:249
+msgid "Please enter a zipcode to select a pickup point"
+msgstr "Udfyld venligst et postnummer for at vælge et udleveringssted"
+
+#: includes/legacy_pakkelabels_shipping_main.php:307
+#: includes/pakkelabels_shipping_main.php:300
+msgid "Pickup point is selected during checkout"
+msgstr "Udleveringssted vælges i checkouten"
+
+#: includes/pakkelabels_shipping_admin.php:41
+#: includes/legacy_pakkelabels_shipping_admin.php:42
+#: includes/method_settings/settings-default.php:41
+#: includes/method_settings/legacy-settings-default.php:45
+msgid "Weight"
+msgstr "Vægt"
+
+#: includes/pakkelabels_shipping_admin.php:42
+#: includes/legacy_pakkelabels_shipping_admin.php:43
+#: includes/method_settings/settings-default.php:42
+#: includes/method_settings/legacy-settings-default.php:46
+msgid "Price"
+msgstr "Pris"
+
+#: includes/pakkelabels_shipping_admin.php:43
+#: includes/legacy_pakkelabels_shipping_admin.php:44
+msgid "Quantity"
+msgstr "Antal (Quantity)"
+
+#: includes/pakkelabels_shipping_admin.php:44
+#: includes/legacy_pakkelabels_shipping_admin.php:45
+msgid "Title for Pakkelabels"
+msgstr "Titel for Pakkelabels.dk"
+
+#: includes/pakkelabels_shipping_admin.php:45
+#: includes/legacy_pakkelabels_shipping_admin.php:46
+msgid "Minimum cart total"
+msgstr "Minimum kurv total"
+
+#: includes/pakkelabels_shipping_admin.php:46
+#: includes/legacy_pakkelabels_shipping_admin.php:47
+msgid "Maximum cart total"
+msgstr "Maksimum kurv total"
+
+#: includes/pakkelabels_shipping_admin.php:47
+#: includes/pakkelabels_shipping_admin.php:52
+#: includes/legacy_pakkelabels_shipping_admin.php:48
+#: includes/legacy_pakkelabels_shipping_admin.php:53
+#: includes/method_settings/settings-default.php:46
+#: includes/method_settings/legacy-settings-default.php:50
+msgid "Shipping Price"
+msgstr "Forsendelses pris"
+
+#: includes/pakkelabels_shipping_admin.php:48
+#: includes/legacy_pakkelabels_shipping_admin.php:49
+msgid "Add row"
+msgstr "Tilføj række"
+
+#: includes/pakkelabels_shipping_admin.php:49
+#: includes/legacy_pakkelabels_shipping_admin.php:50
+msgid "Cart Total"
+msgstr "Kurv total"
+
+#: includes/pakkelabels_shipping_admin.php:53
+#: includes/legacy_pakkelabels_shipping_admin.php:54
+msgid ""
+"In the price table below, you can choose to setup different shipping prices, "
+"that will be based on the carts total of your choosen type.<br/>If the cart "
+"total falls outside of any of the choosen ranges, the shipping price will "
+"default to the highest shipping price.<br/>Please make sure to follow the "
+"woocommerce standard, and use a period (.) as a decimal seperator."
+msgstr ""
+"I pristabellen herunder kan du vælge at opsætte forskellige forsendelses "
+"priser, som kurvens total skal baseres på.<br/>Hvis kurvens total falder "
+"udenfor de opsatte intervaller, så vil den højeste forsendelses pris blive "
+"valgt.<br/>Benyt venligst punktum (.) som decimal seperator (WooCommerce "
+"standard)."
+
+#: includes/pakkelabels_shipping_dao_direct.php:20
+#: includes/legacy_pakkelabels_shipping_dao_direct.php:21
+msgid "DAO Direct"
+msgstr "DAO Direkte"
+
+#: includes/pakkelabels_shipping_dao_direct.php:21
+msgid "Adds the option to ship with the DAO direct in the checkout"
+msgstr "Tilføjer muligheden for at tilføje DAO direkte afsendelse ved checkout"
+
+#: includes/pakkelabels_shipping_gls.php:20
+#: includes/legacy_pakkelabels_shipping_gls.php:24
+msgid "GLS Pickup Point"
+msgstr "GLS PakkeShop"
+
+#: includes/pakkelabels_shipping_gls.php:21
+#: includes/legacy_pakkelabels_shipping_gls.php:25
+msgid "Adds the option to ship with the GLS pickup point to the checkout"
+msgstr ""
+"Tilføjer muligheden for at sende til et GLS udleveringssted ved checkout"
+
+#: includes/legacy_pakkelabels_shipping_postnord_private.php:21
+#: includes/pakkelabels_shipping_postnord_private.php:20
+msgid "PostNord Private"
+msgstr "PostNord - Omdeling til privat"
+
+#: includes/legacy_pakkelabels_shipping_postnord_private.php:22
+msgid "Adds the option to ship with the PostNord private to the checkout"
+msgstr ""
+"Tilføjer muligheden for at tilføje PostNord privat afsendelse ved checkout"
+
+#: includes/legacy_pakkelabels_shipping_gls_private.php:21
+#: includes/pakkelabels_shipping_gls_private.php:20
+msgid "GLS Private"
+msgstr "GLS - Omdeling til privat"
+
+#: includes/legacy_pakkelabels_shipping_gls_private.php:22
+msgid "Adds the option to ship with the GLS private to the checkout"
+msgstr "Tilføjer muligheden for at tilføje GLS privat afsendelse ved checkout"
+
+#: includes/pakkelabels_shipping_postnord_business.php:20
+#: includes/legacy_pakkelabels_shipping_postnord_business.php:21
+msgid "PostNord Business"
+msgstr "PostNord - Omdeling til erhverv"
+
+#: includes/pakkelabels_shipping_postnord_business.php:21
+#: includes/legacy_pakkelabels_shipping_postnord_business.php:22
+msgid "Adds the option to ship with the PostNord business to the checkout"
+msgstr ""
+"Tilføjer muligheden for at tilføje PostNord privat afsendelse ved checkout"
+
+#: includes/pakkelabels_shipping_postnord_private.php:21
+msgid "Adds the option to ship with the PostNord private in the checkout"
+msgstr ""
+"Tilføjer muligheden for at tilføje PostNord privat afsendelse ved checkout"
+
+#: includes/legacy_pakkelabels_shipping_bring_business.php:15
+msgid "Bring Business "
+msgstr "Bring - Omdeling til erhverv"
+
+#: includes/pakkelabels_shipping_gls_private.php:21
+msgid "Adds the option to ship with the GLS private in the checkout"
+msgstr "Tilføjer muligheden for at tilføje GLS privat afsendelse ved checkout"
+
+#: includes/legacy_pakkelabels_shipping_dao_direct.php:22
+msgid "Adds the option to ship with the DAO direct to the checkout"
+msgstr "Tilføjer muligheden for at tilføje DAO direkte afsendelse ved checkout"
+
+#: includes/legacy_pakkelabels_shipping_gls_business.php:21
+msgid "GLS Business "
+msgstr "GLS - Omdeling til erhverv"
+
+#: includes/pakkelabels_shipping_bring.php:20
+#: includes/legacy_pakkelabels_shipping_bring.php:19
+msgid "Bring - Optional pickup location"
+msgstr "Bring - Valgfrit udleveringssted"
+
+#: includes/pakkelabels_shipping_bring.php:21
+#: includes/legacy_pakkelabels_shipping_bring.php:20
+msgid ""
+"Adds the option to ship with Bring - Optional pickup location to the checkout"
+msgstr ""
+"Tilføjer muligheden for at tilføje Bring - Valgfrit udleveringssted ved "
+"checkout"
+
+#: includes/method_settings/settings-default.php:17
+#: includes/method_settings/legacy-settings-default.php:21
+msgid "Method Name"
+msgstr "Forsendelses metodens navn"
+
+#: includes/method_settings/settings-default.php:19
+#: includes/method_settings/legacy-settings-default.php:23
+msgid ""
+"This controls the title which customer will be presented for during checkout."
+msgstr "Dette felt kontrollerer titlen som forbruger ser under checkout"
+
+#: includes/method_settings/settings-default.php:34
+#: includes/method_settings/legacy-settings-default.php:38
+msgid "Differentiated Price Type"
+msgstr "Differentieret pristype"
+
+#: includes/method_settings/settings-default.php:36
+#: includes/method_settings/legacy-settings-default.php:40
+msgid "Choose what the shipping price is based on"
+msgstr "Vælg hvad forsendelses prisen skal være baseret på"
+
+#: includes/method_settings/settings-default.php:40
+#: includes/method_settings/legacy-settings-default.php:44
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/method_settings/settings-default.php:48
+#: includes/method_settings/legacy-settings-default.php:52
+msgid ""
+"This controls what the customer will have to pay for this shipping method."
+"<br/><br/> Simple math functions can also be inserted instead and will be "
+"calculated.<br/><br/>Using [qty] is a placeholder for the quantity of items "
+"in the cart."
+msgstr ""
+"Dette felt bestemmer forsendelses prisen, som kunden skal betale.<br/><br/>"
+"Simple matematiske udtryk kan anvendes her.<br/><br/>F.eks. kan variablen "
+"[qty] anvendes for antallet af varer i kurven."
+
+#: includes/method_settings/settings-default.php:54
+#: includes/method_settings/legacy-settings-default.php:76
+msgid "Enable Free Shipping"
+msgstr "Muligør gratis fragt"
+
+#: includes/method_settings/settings-default.php:59
+#: includes/method_settings/legacy-settings-default.php:81
+msgid "No"
+msgstr "Nej"
+
+#: includes/method_settings/settings-default.php:60
+#: includes/method_settings/legacy-settings-default.php:82
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/method_settings/settings-default.php:64
+#: includes/method_settings/legacy-settings-default.php:86
+msgid "Minimum Purchase For Free Shipping"
+msgstr "Minimumskøb for gratis fragt"
+
+#: includes/method_settings/settings-default.php:67
+#: includes/method_settings/legacy-settings-default.php:89
+msgid ""
+"This control the minimum amount the customer will have to purchase (subtotal)"
+" for to get free shipping. <br/><br/><strong>This rule will overrule any "
+"differentiated price ranges if the condition is met.</strong>"
+msgstr ""
+"Dette felt bestemmer kundens minimumskøb (subtotal) for at kunne opnå fri "
+"fragt.<br/><br/><strong>Denne regel vil overstyre differentieret pristype, "
+"hvis betingelsen bliver opfyldt.</strong>"
+
+#: includes/method_settings/legacy-settings-default.php:15
+msgid "Enable/Disable"
+msgstr "Aktiver/Deaktiver"
+
+#: includes/method_settings/legacy-settings-default.php:17
+msgid "Enable this shipping method"
+msgstr "Aktiver denne forsendelses metode"
+
+#: includes/method_settings/legacy-settings-default.php:58
+msgid "Availability"
+msgstr "Tilgængelighed"
+
+#: includes/method_settings/legacy-settings-default.php:63
+msgid "All allowed countries"
+msgstr "Alle tilladte lande"
+
+#: includes/method_settings/legacy-settings-default.php:64
+#: includes/method_settings/legacy-settings-default.php:68
+msgid "Specific Countries"
+msgstr "Tilladte lande"
+
+#. Name of the plugin
+msgid "Pakkelabels.dk for WooCommerce"
+msgstr "Pakkelabels.dk til WooCommerce"
+
+#. URI of the plugin
+msgid "http://www.pakkelabels.dk/"
+msgstr "http://www.pakkelabels.dk/"
+
+#. Author of the plugin
+msgid "pakkelabels.dk"
+msgstr "pakkelabels.dk"
+
+#. URI of the plugin
+msgid "http://www.pakkelabels.dk"
+msgstr "http://www.pakkelabels.dk"
